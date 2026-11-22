@@ -1,0 +1,9 @@
+subset,val_size,mean_blended_rouge,pct_rag_matches
+Eng_Gha,110,0.095,0.0
+Eng_Uga,167,0.5318,100.0
+Swa_Ken,52,0.7039,100.0
+Eng_Eth,51,0.6026,100.0
+Amh_Eth,46,0.0781,0.0
+Aka_Gha,112,0.0769,0.0
+Eng_Ken,39,0.6123,100.0
+Lug_Uga,85,0.4158,100.0

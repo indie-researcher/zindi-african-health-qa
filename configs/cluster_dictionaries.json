@@ -1,0 +1,1543 @@
+{
+  "G01_ADOLESCENT_SRH": {
+    "group_id": "G01_ADOLESCENT_SRH",
+    "label": "Adolescent reproductive & sexual health",
+    "must_have_terms": [
+      {
+        "term": "puberty",
+        "clinical_weight": 2,
+        "terse_form": "puberty is normal",
+        "verbose_form": "puberty is a normal stage of physical and emotional development"
+      },
+      {
+        "term": "reproductive health",
+        "clinical_weight": 3,
+        "terse_form": "reproductive health matters",
+        "verbose_form": "understanding your reproductive health is important for your overall wellbeing"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "visit a health facility",
+        "verbose_form": "visit your nearest health facility or youth-friendly clinic for confidential advice"
+      },
+      {
+        "term": "trusted adult",
+        "clinical_weight": 2,
+        "terse_form": "speak to a trusted adult",
+        "verbose_form": "speak to a trusted adult, parent, teacher, or health worker you feel safe with"
+      },
+      {
+        "term": "consent",
+        "clinical_weight": 3,
+        "terse_form": "consent is required",
+        "verbose_form": "sexual activity must always involve the free and informed consent of both people"
+      },
+      {
+        "term": "protect yourself",
+        "clinical_weight": 3,
+        "terse_form": "use protection",
+        "verbose_form": "protect yourself by using condoms consistently and correctly with every sexual contact"
+      },
+      {
+        "term": "peer pressure",
+        "clinical_weight": 2,
+        "terse_form": "resist peer pressure",
+        "verbose_form": "you have the right to say no and resist pressure from peers regarding sexual activity"
+      },
+      {
+        "term": "normal changes",
+        "clinical_weight": 2,
+        "terse_form": "changes are normal",
+        "verbose_form": "the physical and emotional changes you are experiencing are a normal part of growing up"
+      },
+      {
+        "term": "confidential",
+        "clinical_weight": 2,
+        "terse_form": "services are confidential",
+        "verbose_form": "youth-friendly health services are confidential and non-judgmental"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "sexual activity at a specific age is normal or expected",
+        "why_dangerous": "normalises early sexual debut which increases STI and pregnancy risk",
+        "safe_alternative": "focus on readiness, consent, and protection rather than age norms"
+      },
+      {
+        "forbidden_claim": "specific contraceptive is best for adolescents without clinical context",
+        "why_dangerous": "individual health factors determine appropriate contraception — requires clinical assessment",
+        "safe_alternative": "recommend visiting a health facility to discuss options with a provider"
+      },
+      {
+        "forbidden_claim": "virginity testing is valid or recommended",
+        "why_dangerous": "violates bodily autonomy and has no clinical validity",
+        "safe_alternative": "focus on consent, health, and personal choice"
+      },
+      {
+        "forbidden_claim": "pregnancy cannot occur during first sexual encounter",
+        "why_dangerous": "common myth that leads to unprotected sex",
+        "safe_alternative": "clearly state pregnancy is possible from any unprotected sexual contact"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "young person",
+        "usage_note": "preferred over 'teenager' or 'adolescent' in some East African contexts — use interchangeably"
+      },
+      {
+        "term": "girl",
+        "usage_note": "use when question is specifically about female puberty or female reproductive anatomy"
+      },
+      {
+        "term": "boy",
+        "usage_note": "use when question is specifically about male puberty"
+      },
+      {
+        "term": "parent",
+        "usage_note": "often referenced as a support resource in adolescent health answers"
+      },
+      {
+        "term": "school",
+        "usage_note": "contextually important — many adolescent health questions come from school settings"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "legal",
+        "register_triggered": "legal/rights register — pulls away from clinical guidance",
+        "safer_alternative": "use 'your right' or 'you are entitled to' without legalese"
+      },
+      {
+        "term": "research shows",
+        "register_triggered": "academic register — inappropriate for patient-facing adolescent advice",
+        "safer_alternative": "use direct clinical statements without citing evidence"
+      },
+      {
+        "term": "statistics",
+        "register_triggered": "academic/policy register",
+        "safer_alternative": "use plain language: 'many young people' rather than citing percentages"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always affirm that seeking information is positive",
+        "reason": "adolescents often feel shame asking reproductive health questions — affirmation increases health-seeking behaviour",
+        "implementation": "open answers with 'It is good that you are asking about this' or similar"
+      },
+      {
+        "flag": "always include a confidential resource or facility type",
+        "reason": "adolescents may fear judgment — confidentiality is a known barrier to health-seeking",
+        "implementation": "include 'youth-friendly clinic' or 'confidential health services' in every answer"
+      },
+      {
+        "flag": "never use shaming language or imply the question is inappropriate",
+        "reason": "shame is the primary reason adolescents avoid healthcare",
+        "implementation": "review all generated answers for judgmental phrasing before submission"
+      }
+    ]
+  },
+  "G02_HIV_GENERAL": {
+    "group_id": "G02_HIV_GENERAL",
+    "label": "HIV — general, symptoms, living with",
+    "must_have_terms": [
+      {
+        "term": "antiretroviral treatment",
+        "clinical_weight": 3,
+        "terse_form": "take ART daily",
+        "verbose_form": "antiretroviral treatment (ART) must be taken daily as prescribed to keep HIV under control"
+      },
+      {
+        "term": "undetectable",
+        "clinical_weight": 3,
+        "terse_form": "ART makes HIV undetectable",
+        "verbose_form": "with consistent ART, HIV can become undetectable in the blood, meaning the virus cannot be transmitted"
+      },
+      {
+        "term": "immune system",
+        "clinical_weight": 2,
+        "terse_form": "HIV weakens immunity",
+        "verbose_form": "HIV attacks the immune system, making the body less able to fight infections"
+      },
+      {
+        "term": "CD4 count",
+        "clinical_weight": 2,
+        "terse_form": "CD4 count monitored",
+        "verbose_form": "CD4 cell count is monitored to assess immune system health and guide treatment decisions"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "attend clinic regularly",
+        "verbose_form": "attend your nearest health facility regularly for monitoring and medication refills"
+      },
+      {
+        "term": "HIV test",
+        "clinical_weight": 3,
+        "terse_form": "get tested for HIV",
+        "verbose_form": "the only way to know your HIV status is to get tested at a health facility"
+      },
+      {
+        "term": "long healthy life",
+        "clinical_weight": 3,
+        "terse_form": "live a long healthy life",
+        "verbose_form": "people living with HIV can live a long and healthy life with proper treatment and care"
+      },
+      {
+        "term": "AIDS",
+        "clinical_weight": 2,
+        "terse_form": "untreated HIV becomes AIDS",
+        "verbose_form": "without treatment, HIV can progress to AIDS, the advanced stage of the disease"
+      },
+      {
+        "term": "stigma",
+        "clinical_weight": 2,
+        "terse_form": "HIV stigma is harmful",
+        "verbose_form": "stigma and discrimination against people living with HIV are harmful and unfounded"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "HIV is a death sentence or the person will die soon",
+        "why_dangerous": "factually wrong with ART and causes psychological harm and disengagement from care",
+        "safe_alternative": "state clearly that with treatment people live long healthy lives"
+      },
+      {
+        "forbidden_claim": "HIV can be cured",
+        "why_dangerous": "no cure exists — false claim leads to treatment abandonment",
+        "safe_alternative": "ART controls HIV effectively but does not cure it"
+      },
+      {
+        "forbidden_claim": "a specific drug name or dosage",
+        "why_dangerous": "prescribing over chat is outside scope and dangerous without clinical assessment",
+        "safe_alternative": "recommend attending a health facility for treatment decisions"
+      },
+      {
+        "forbidden_claim": "someone definitely has HIV based on symptoms described",
+        "why_dangerous": "only a test can confirm HIV — diagnosis over chat is not appropriate",
+        "safe_alternative": "recommend testing and name the symptoms as possible indicators"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "person living with HIV",
+        "usage_note": "preferred non-stigmatising language over 'HIV patient' or 'HIV victim'"
+      },
+      {
+        "term": "partner",
+        "usage_note": "appears frequently — relevant to disclosure, transmission risk, and testing together"
+      },
+      {
+        "term": "mother",
+        "usage_note": "relevant to mother-to-child transmission cluster within G02"
+      },
+      {
+        "term": "child",
+        "usage_note": "relevant to paediatric HIV and mother-to-child transmission questions"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "cure",
+        "register_triggered": "false hope register — generates answers that overstate treatment outcomes",
+        "safer_alternative": "use 'manage' or 'control' — ART manages HIV, does not cure it"
+      },
+      {
+        "term": "miracle",
+        "register_triggered": "religious/cultural register — inappropriate in clinical HIV answers",
+        "safer_alternative": "redirect to ART and clinical care"
+      },
+      {
+        "term": "research",
+        "register_triggered": "academic register",
+        "safer_alternative": "state clinical facts directly without citing research context"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always distinguish HIV from AIDS",
+        "reason": "common conflation leads to fatalism and treatment avoidance",
+        "implementation": "include one sentence distinguishing HIV (the virus) from AIDS (advanced stage)"
+      },
+      {
+        "flag": "always include ART as the core management tool",
+        "reason": "ART is the single most important clinical fact in HIV answers — omitting it is a critical incompleteness",
+        "implementation": "ART must appear in every G02 answer regardless of question framing"
+      },
+      {
+        "flag": "always include testing recommendation",
+        "reason": "many G02 questions are asked by people who do not know their status",
+        "implementation": "include 'get tested at a health facility' even when question is not directly about testing"
+      }
+    ]
+  },
+  "G03_HIV_TRANSMISSION": {
+    "group_id": "G03_HIV_TRANSMISSION",
+    "label": "HIV — transmission myths & prevention",
+    "must_have_terms": [
+      {
+        "term": "cannot transmit HIV",
+        "clinical_weight": 3,
+        "terse_form": "does not transmit HIV",
+        "verbose_form": "this activity cannot transmit HIV and has been conclusively studied"
+      },
+      {
+        "term": "bodily fluids",
+        "clinical_weight": 3,
+        "terse_form": "spreads through bodily fluids",
+        "verbose_form": "HIV is transmitted through specific bodily fluids: blood, breast milk, semen, and vaginal fluids"
+      },
+      {
+        "term": "condom",
+        "clinical_weight": 3,
+        "terse_form": "use condoms consistently",
+        "verbose_form": "using condoms correctly and consistently during every sexual encounter significantly reduces HIV transmission risk"
+      },
+      {
+        "term": "HIV test",
+        "clinical_weight": 3,
+        "terse_form": "get tested",
+        "verbose_form": "knowing your HIV status through regular testing is essential for your health and your partner's health"
+      },
+      {
+        "term": "not through",
+        "clinical_weight": 3,
+        "terse_form": "HIV not spread through",
+        "verbose_form": "HIV is not spread through casual contact such as"
+      },
+      {
+        "term": "prevention",
+        "clinical_weight": 2,
+        "terse_form": "prevention methods work",
+        "verbose_form": "evidence-based HIV prevention methods include condoms, PrEP, and regular testing"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 2,
+        "terse_form": "visit a health facility",
+        "verbose_form": "visit a health facility for HIV testing, PrEP, or counselling on prevention"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "the myth has any basis or partial truth",
+        "why_dangerous": "validates dangerous misinformation — even hedging ('while unlikely') creates false uncertainty",
+        "safe_alternative": "clearly state the myth is false and explain the actual transmission routes"
+      },
+      {
+        "forbidden_claim": "washing after sex prevents HIV",
+        "why_dangerous": "directly harmful myth that leads to unprotected sex",
+        "safe_alternative": "washing after sex does not prevent HIV — only condoms and PrEP are effective"
+      },
+      {
+        "forbidden_claim": "mosquitoes can transmit HIV",
+        "why_dangerous": "false — HIV does not survive or replicate in mosquitoes",
+        "safe_alternative": "mosquitoes cannot transmit HIV — the virus dies in the mosquito's gut"
+      },
+      {
+        "forbidden_claim": "a person can tell if someone has HIV by looking at them",
+        "why_dangerous": "perpetuates stigma and false detection beliefs",
+        "safe_alternative": "HIV has no visible signs — only testing confirms status"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "mosquito",
+        "usage_note": "specific to cluster 53 — always paired with clear debunking"
+      },
+      {
+        "term": "kissing",
+        "usage_note": "specific to cluster 71 — HIV not in saliva at transmissible levels"
+      },
+      {
+        "term": "circumcision",
+        "usage_note": "specific to cluster 40 — reduces risk but does not eliminate it"
+      },
+      {
+        "term": "blood",
+        "usage_note": "critical context term — blood transfusion and sharing needles are real routes"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "some studies suggest",
+        "register_triggered": "academic hedging — creates false uncertainty about well-established facts",
+        "safer_alternative": "state facts definitively: 'HIV cannot be transmitted through mosquito bites'"
+      },
+      {
+        "term": "it depends",
+        "register_triggered": "uncertainty register — inappropriate for clear transmission myth rebuttals",
+        "safer_alternative": "be direct: state what is true and what is false"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always state the myth is false before explaining why",
+        "reason": "patients reading quickly need the answer before the explanation — buried rebuttals are ineffective",
+        "implementation": "open with '[Activity] does NOT transmit HIV' before any explanation"
+      },
+      {
+        "flag": "always follow myth rebuttal with the actual transmission routes",
+        "reason": "provides complete clinical picture and prevents other misconceptions",
+        "implementation": "after debunking, add one sentence: 'HIV is transmitted through [specific fluids]'"
+      },
+      {
+        "flag": "always include a prevention recommendation",
+        "reason": "myth questions often come from people engaging in risk behaviour — opportunity for prevention messaging",
+        "implementation": "end with condom use or testing recommendation"
+      }
+    ]
+  },
+  "G04_HERPES_HSV": {
+    "group_id": "G04_HERPES_HSV",
+    "label": "Herpes (HSV)",
+    "must_have_terms": [
+      {
+        "term": "lifelong condition",
+        "clinical_weight": 3,
+        "terse_form": "herpes is lifelong",
+        "verbose_form": "herpes is a lifelong condition — the virus remains in the body but symptoms can be managed"
+      },
+      {
+        "term": "sores or blisters",
+        "clinical_weight": 3,
+        "terse_form": "painful sores or blisters",
+        "verbose_form": "herpes typically causes painful sores or blisters on the genitals, buttocks, or mouth"
+      },
+      {
+        "term": "antiviral medication",
+        "clinical_weight": 3,
+        "terse_form": "antiviral medication helps",
+        "verbose_form": "antiviral medication can reduce the frequency and severity of outbreaks and lower transmission risk"
+      },
+      {
+        "term": "transmitted through skin contact",
+        "clinical_weight": 3,
+        "terse_form": "spreads through skin contact",
+        "verbose_form": "herpes is transmitted through direct skin-to-skin contact, including during sex or when sores are present"
+      },
+      {
+        "term": "condom",
+        "clinical_weight": 2,
+        "terse_form": "condoms reduce risk",
+        "verbose_form": "condoms reduce but do not eliminate herpes transmission risk as the virus can be shed from skin not covered by a condom"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "see a health worker",
+        "verbose_form": "visit a health facility for diagnosis, antiviral treatment, and counselling on managing the condition"
+      },
+      {
+        "term": "asymptomatic shedding",
+        "clinical_weight": 2,
+        "terse_form": "can spread without symptoms",
+        "verbose_form": "herpes can be transmitted even when no sores are visible — this is called asymptomatic shedding"
+      },
+      {
+        "term": "HSV-1 and HSV-2",
+        "clinical_weight": 2,
+        "terse_form": "two types of herpes",
+        "verbose_form": "there are two types of herpes: HSV-1 which commonly causes oral herpes and HSV-2 which commonly causes genital herpes"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "herpes can be cured",
+        "why_dangerous": "no cure exists — false claim causes treatment abandonment and unsafe behaviour",
+        "safe_alternative": "antiviral medication manages symptoms but herpes cannot be cured"
+      },
+      {
+        "forbidden_claim": "holy water, prayer, or traditional remedies cure herpes",
+        "why_dangerous": "delays medical treatment and perpetuates harmful myths",
+        "safe_alternative": "spiritual practices cannot cure herpes — antiviral medication is the only effective treatment"
+      },
+      {
+        "forbidden_claim": "herpes is only transmitted when sores are visible",
+        "why_dangerous": "leads to unprotected sex during asymptomatic shedding",
+        "safe_alternative": "herpes can spread even without visible sores"
+      },
+      {
+        "forbidden_claim": "a specific antiviral drug name or dosage",
+        "why_dangerous": "requires clinical assessment for appropriate prescribing",
+        "safe_alternative": "antiviral medications are available — a health worker will prescribe the right one"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "outbreak",
+        "usage_note": "clinical term for symptomatic episode — use consistently"
+      },
+      {
+        "term": "partner",
+        "usage_note": "critical — partner notification and shared management are key components"
+      },
+      {
+        "term": "sore",
+        "usage_note": "most patient-accessible term for herpes lesions — use over 'lesion' or 'ulcer'"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "holy water",
+        "register_triggered": "religious/cultural cure register — appears in cluster 52",
+        "safer_alternative": "acknowledge spiritual belief then redirect: 'while faith is important, antiviral medication is needed to manage herpes'"
+      },
+      {
+        "term": "shame",
+        "register_triggered": "stigma register — inappropriate clinical framing",
+        "safer_alternative": "frame herpes as a common manageable medical condition without moral judgement"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always distinguish HSV-1 from HSV-2",
+        "reason": "patients often conflate oral and genital herpes — distinction affects transmission counselling",
+        "implementation": "include one sentence distinguishing the two types"
+      },
+      {
+        "flag": "always state herpes is manageable despite being lifelong",
+        "reason": "lifelong condition framing without management context causes psychological harm",
+        "implementation": "pair 'lifelong' with 'manageable with antiviral medication' in every answer"
+      },
+      {
+        "flag": "always include partner notification recommendation",
+        "reason": "partners need to be tested and counselled — omitting this is a clinical incompleteness",
+        "implementation": "include 'inform your partner and encourage them to get tested' in every answer"
+      }
+    ]
+  },
+  "G05_SYPHILIS": {
+    "group_id": "G05_SYPHILIS",
+    "label": "Syphilis",
+    "must_have_terms": [
+      {
+        "term": "stages",
+        "clinical_weight": 3,
+        "terse_form": "syphilis has stages",
+        "verbose_form": "syphilis progresses through stages: primary, secondary, latent, and tertiary if untreated"
+      },
+      {
+        "term": "painless sore",
+        "clinical_weight": 3,
+        "terse_form": "painless sore first sign",
+        "verbose_form": "the first sign of syphilis is usually a painless sore called a chancre at the site of infection"
+      },
+      {
+        "term": "curable with antibiotics",
+        "clinical_weight": 3,
+        "terse_form": "cured with antibiotics",
+        "verbose_form": "syphilis is curable with antibiotics, especially in early stages — treatment must be completed in full"
+      },
+      {
+        "term": "penicillin",
+        "clinical_weight": 2,
+        "terse_form": "penicillin treats syphilis",
+        "verbose_form": "penicillin is the most effective antibiotic treatment for syphilis — a health provider will prescribe the correct type and dose"
+      },
+      {
+        "term": "serious complications",
+        "clinical_weight": 3,
+        "terse_form": "untreated causes serious harm",
+        "verbose_form": "untreated syphilis causes serious complications including heart damage, brain damage, and death in the tertiary stage"
+      },
+      {
+        "term": "congenital syphilis",
+        "clinical_weight": 2,
+        "terse_form": "can affect unborn baby",
+        "verbose_form": "syphilis can be passed from a pregnant woman to her unborn baby, causing congenital syphilis which is life-threatening"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "get tested and treated",
+        "verbose_form": "visit a health facility immediately for testing and treatment — early treatment prevents serious complications"
+      },
+      {
+        "term": "partner notification",
+        "clinical_weight": 3,
+        "terse_form": "inform your partner",
+        "verbose_form": "all sexual partners must be notified and tested as syphilis spreads through sexual contact"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "syphilis symptoms are always obvious or painful",
+        "why_dangerous": "primary chancre is painless — false expectation leads to missed early treatment",
+        "safe_alternative": "syphilis often causes no pain in early stages — testing is the only reliable way to know"
+      },
+      {
+        "forbidden_claim": "a specific antibiotic dosage or treatment course",
+        "why_dangerous": "treatment varies by stage and requires clinical assessment",
+        "safe_alternative": "a health provider will determine the correct antibiotic type and dose based on your stage"
+      },
+      {
+        "forbidden_claim": "syphilis is incurable",
+        "why_dangerous": "fatalism that prevents health-seeking — unlike HIV, syphilis IS curable",
+        "safe_alternative": "syphilis is curable with antibiotics especially when caught early"
+      },
+      {
+        "forbidden_claim": "tertiary syphilis symptoms described can be self-managed",
+        "why_dangerous": "tertiary stage requires urgent specialist care",
+        "safe_alternative": "advanced syphilis requires immediate emergency medical care"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "chancre",
+        "usage_note": "clinical term for primary syphilis sore — define it when used: 'a painless sore called a chancre'"
+      },
+      {
+        "term": "pregnant woman",
+        "usage_note": "essential context for congenital syphilis questions"
+      },
+      {
+        "term": "sexual partner",
+        "usage_note": "always reference in transmission and notification answers"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "rare",
+        "register_triggered": "downplaying register — syphilis rates are rising in East/West Africa",
+        "safer_alternative": "do not describe syphilis as rare — it is a significant public health concern in this region"
+      },
+      {
+        "term": "old disease",
+        "register_triggered": "historical register that implies reduced relevance",
+        "safer_alternative": "syphilis remains common and is increasing in some areas — frame as a current health concern"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always name the stages when discussing syphilis",
+        "reason": "staging determines treatment and prognosis — omitting stages is a clinical incompleteness",
+        "implementation": "include primary/secondary/latent/tertiary naming even in brief answers"
+      },
+      {
+        "flag": "always mention congenital syphilis risk for pregnant patients",
+        "reason": "MSRH context means many questions come from pregnant women or their partners",
+        "implementation": "add 'if pregnant, testing and treatment protect your baby' to answers where pregnancy is relevant"
+      },
+      {
+        "flag": "always include partner notification",
+        "reason": "syphilis reinfection from untreated partner is a primary treatment failure cause",
+        "implementation": "partner notification must appear in every G05 answer"
+      }
+    ]
+  },
+  "G06_CHLAMYDIA": {
+    "group_id": "G06_CHLAMYDIA",
+    "label": "Chlamydia",
+    "must_have_terms": [
+      {
+        "term": "most common STI",
+        "clinical_weight": 2,
+        "terse_form": "very common STI",
+        "verbose_form": "chlamydia is one of the most common sexually transmitted infections and is often silent"
+      },
+      {
+        "term": "often no symptoms",
+        "clinical_weight": 3,
+        "terse_form": "often no symptoms",
+        "verbose_form": "chlamydia often causes no symptoms, which is why many people do not know they are infected"
+      },
+      {
+        "term": "discharge",
+        "clinical_weight": 2,
+        "terse_form": "unusual discharge possible",
+        "verbose_form": "when symptoms occur they may include unusual discharge from the penis or vagina, and burning when urinating"
+      },
+      {
+        "term": "curable with antibiotics",
+        "clinical_weight": 3,
+        "terse_form": "cured with antibiotics",
+        "verbose_form": "chlamydia is easily cured with a course of antibiotics prescribed by a health provider"
+      },
+      {
+        "term": "infertility",
+        "clinical_weight": 3,
+        "terse_form": "untreated causes infertility",
+        "verbose_form": "untreated chlamydia can cause pelvic inflammatory disease and infertility in women"
+      },
+      {
+        "term": "testing",
+        "clinical_weight": 3,
+        "terse_form": "get tested at clinic",
+        "verbose_form": "the only way to know if you have chlamydia is to get tested at a health facility"
+      },
+      {
+        "term": "partner notification",
+        "clinical_weight": 3,
+        "terse_form": "inform your partner",
+        "verbose_form": "all sexual partners must be notified and treated even if they have no symptoms"
+      },
+      {
+        "term": "newborn risk",
+        "clinical_weight": 2,
+        "terse_form": "can infect newborn",
+        "verbose_form": "chlamydia can be passed to a baby during birth, causing eye infection or pneumonia in the newborn"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "chlamydia is always symptomatic or easy to detect without testing",
+        "why_dangerous": "most chlamydia is asymptomatic — this leads to untested and untreated infections",
+        "safe_alternative": "chlamydia often causes no symptoms — testing is the only reliable detection method"
+      },
+      {
+        "forbidden_claim": "chlamydia resolves on its own without treatment",
+        "why_dangerous": "untreated chlamydia progresses to serious complications including infertility",
+        "safe_alternative": "chlamydia requires antibiotic treatment — it does not resolve without treatment"
+      },
+      {
+        "forbidden_claim": "a specific antibiotic name or dosage",
+        "why_dangerous": "requires clinical prescription",
+        "safe_alternative": "a health provider will prescribe the appropriate antibiotic course"
+      },
+      {
+        "forbidden_claim": "chlamydia only affects adults",
+        "why_dangerous": "cluster 56 specifically concerns chlamydia in children — neonatal transmission is real",
+        "safe_alternative": "chlamydia can affect newborns and children through transmission during birth"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "silent infection",
+        "usage_note": "useful patient-friendly framing for asymptomatic chlamydia"
+      },
+      {
+        "term": "pelvic inflammatory disease",
+        "usage_note": "critical complication — mention as PID with full name first"
+      },
+      {
+        "term": "newborn",
+        "usage_note": "specific to cluster 56 questions about paediatric chlamydia"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "genitourinary",
+        "register_triggered": "clinical jargon — inappropriate for patient-facing answers",
+        "safer_alternative": "use 'reproductive and urinary tract' instead of genitourinary"
+      },
+      {
+        "term": "chlamydial",
+        "register_triggered": "clinical adjective form — unnecessarily technical",
+        "safer_alternative": "use 'chlamydia infection' rather than 'chlamydial infection'"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always state that chlamydia is often asymptomatic",
+        "reason": "the silent infection nature is the most clinically important fact — drives testing behaviour",
+        "implementation": "include 'often no symptoms' in every G06 answer"
+      },
+      {
+        "flag": "always include infertility as an untreated complication",
+        "reason": "fertility concern is a primary driver of health-seeking in MSRH context",
+        "implementation": "mention infertility risk in every answer about untreated or undetected chlamydia"
+      },
+      {
+        "flag": "always include partner notification",
+        "reason": "reinfection from untreated partner is primary treatment failure cause",
+        "implementation": "partner notification must appear in every G06 answer"
+      }
+    ]
+  },
+  "G07_GONORRHEA": {
+    "group_id": "G07_GONORRHEA",
+    "label": "Gonorrhea",
+    "must_have_terms": [
+      {
+        "term": "bacterial infection",
+        "clinical_weight": 2,
+        "terse_form": "bacterial STI",
+        "verbose_form": "gonorrhea is a bacterial sexually transmitted infection caused by Neisseria gonorrhoeae"
+      },
+      {
+        "term": "discharge",
+        "clinical_weight": 3,
+        "terse_form": "unusual discharge",
+        "verbose_form": "gonorrhea commonly causes thick, unusual discharge from the penis or vagina and burning when urinating"
+      },
+      {
+        "term": "treatable with antibiotics",
+        "clinical_weight": 3,
+        "terse_form": "treated with antibiotics",
+        "verbose_form": "gonorrhea is treatable with antibiotics though antibiotic resistance is increasing — complete the full course"
+      },
+      {
+        "term": "antibiotic resistance",
+        "clinical_weight": 2,
+        "terse_form": "resistance is increasing",
+        "verbose_form": "gonorrhea is developing resistance to many antibiotics, making it important to complete treatment fully and follow provider guidance"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "go to a health facility",
+        "verbose_form": "visit a health facility for testing and treatment — do not self-treat as incorrect treatment increases resistance"
+      },
+      {
+        "term": "partner notification",
+        "clinical_weight": 3,
+        "terse_form": "inform your partner",
+        "verbose_form": "all sexual partners must be notified and treated even if they have no symptoms"
+      },
+      {
+        "term": "no vaccine exists",
+        "clinical_weight": 3,
+        "terse_form": "no vaccine available",
+        "verbose_form": "there is currently no approved vaccine for gonorrhea — prevention relies on condom use and regular testing"
+      },
+      {
+        "term": "complications",
+        "clinical_weight": 2,
+        "terse_form": "untreated causes complications",
+        "verbose_form": "untreated gonorrhea causes pelvic inflammatory disease, infertility, and increased HIV risk"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "there is a vaccine for gonorrhea",
+        "why_dangerous": "cluster 43 asks this — no approved gonorrhea vaccine exists, HPV vaccine is not gonorrhea vaccine",
+        "safe_alternative": "there is no approved vaccine for gonorrhea — prevention requires condoms and regular testing"
+      },
+      {
+        "forbidden_claim": "prayer or fasting can cure gonorrhea",
+        "why_dangerous": "cluster 45 — delays antibiotic treatment which is essential",
+        "safe_alternative": "gonorrhea requires antibiotic treatment — spiritual practices cannot cure a bacterial infection"
+      },
+      {
+        "forbidden_claim": "gonorrhea is always symptomatic",
+        "why_dangerous": "many infections especially in women are asymptomatic",
+        "safe_alternative": "gonorrhea may cause no symptoms, particularly in women — testing is recommended for anyone at risk"
+      },
+      {
+        "forbidden_claim": "a specific antibiotic drug or dosage",
+        "why_dangerous": "resistance patterns vary by region — requires clinical prescription",
+        "safe_alternative": "a health provider will prescribe the appropriate antibiotic based on local resistance patterns"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "CLAP",
+        "usage_note": "colloquial term used in some African contexts for gonorrhea or general STI discharge — acknowledge if patient uses it but use clinical term in answer"
+      },
+      {
+        "term": "discharge",
+        "usage_note": "primary presenting symptom term — appears in both Q and A frequently"
+      },
+      {
+        "term": "sexual partner",
+        "usage_note": "essential for transmission and notification answers"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "neisseria",
+        "register_triggered": "clinical/microbiological jargon register",
+        "safer_alternative": "use 'gonorrhea' throughout — 'Neisseria gonorrhoeae' only if defining the condition formally"
+      },
+      {
+        "term": "gonorrhoeae",
+        "register_triggered": "Latin clinical spelling — confuses patient-facing answers",
+        "safer_alternative": "use 'gonorrhea' consistently in patient-facing text"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always state no vaccine exists for gonorrhea",
+        "reason": "cluster 43 is specifically the vaccine misconception question — this must be corrected clearly",
+        "implementation": "include 'there is no vaccine for gonorrhea' in any answer touching prevention or protection"
+      },
+      {
+        "flag": "always mention antibiotic resistance",
+        "reason": "resistance is a critical public health issue that affects treatment completion behaviour",
+        "implementation": "include one sentence about completing the full antibiotic course to prevent resistance"
+      },
+      {
+        "flag": "always include partner notification",
+        "reason": "reinfection cycle is primary treatment failure mechanism for gonorrhea",
+        "implementation": "partner notification must appear in every G07 answer"
+      }
+    ]
+  },
+  "G08_HEPATITIS_HBV": {
+    "group_id": "G08_HEPATITIS_HBV",
+    "label": "Hepatitis B (HBV)",
+    "must_have_terms": [
+      {
+        "term": "vaccine available",
+        "clinical_weight": 3,
+        "terse_form": "vaccine prevents hepatitis B",
+        "verbose_form": "hepatitis B can be prevented by vaccination — the vaccine is highly effective and widely available"
+      },
+      {
+        "term": "blood and bodily fluids",
+        "clinical_weight": 3,
+        "terse_form": "spreads through blood and fluids",
+        "verbose_form": "hepatitis B is transmitted through blood, sexual contact, and from mother to child during birth"
+      },
+      {
+        "term": "chronic infection",
+        "clinical_weight": 3,
+        "terse_form": "can become chronic",
+        "verbose_form": "hepatitis B can become a chronic lifelong infection that causes liver damage if not managed"
+      },
+      {
+        "term": "liver damage",
+        "clinical_weight": 3,
+        "terse_form": "damages the liver",
+        "verbose_form": "chronic hepatitis B damages the liver over time and can lead to cirrhosis or liver cancer"
+      },
+      {
+        "term": "antiviral treatment",
+        "clinical_weight": 2,
+        "terse_form": "antiviral treatment available",
+        "verbose_form": "antiviral treatment is available for chronic hepatitis B to slow liver damage — a health provider will assess eligibility"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "get tested at clinic",
+        "verbose_form": "visit a health facility for testing, vaccination, and treatment — early detection prevents serious complications"
+      },
+      {
+        "term": "mother to child",
+        "clinical_weight": 2,
+        "terse_form": "can spread to baby",
+        "verbose_form": "hepatitis B can be passed from a mother to her baby at birth — newborn vaccination prevents this"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "hepatitis B is always curable",
+        "why_dangerous": "acute HBV may resolve but chronic HBV has no cure — only management",
+        "safe_alternative": "acute hepatitis B may resolve on its own but chronic hepatitis B is managed, not cured, with antiviral treatment"
+      },
+      {
+        "forbidden_claim": "hepatitis B and hepatitis C are the same condition",
+        "why_dangerous": "different viruses with different transmission, prevention, and treatment",
+        "safe_alternative": "there are several types of hepatitis — hepatitis B and C are different viruses with different treatments"
+      },
+      {
+        "forbidden_claim": "hepatitis B is transmitted through casual contact",
+        "why_dangerous": "not true — drives stigma and avoidance of people with HBV",
+        "safe_alternative": "hepatitis B is not spread through casual contact such as hugging, sharing food, or coughing"
+      },
+      {
+        "forbidden_claim": "a specific antiviral drug name or dosage",
+        "why_dangerous": "HBV treatment eligibility requires specialist clinical assessment",
+        "safe_alternative": "a health provider will assess whether antiviral treatment is appropriate for your condition"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "liver",
+        "usage_note": "central organ in HBV — always reference liver impact in answers"
+      },
+      {
+        "term": "newborn",
+        "usage_note": "critical for mother-to-child transmission prevention — newborn vaccination within 24 hours of birth"
+      },
+      {
+        "term": "jaundice",
+        "usage_note": "key presenting symptom — yellowing of skin and eyes"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "HCV",
+        "register_triggered": "conflation with hepatitis C — different disease",
+        "safer_alternative": "specify HBV clearly and distinguish from other hepatitis types if mentioned"
+      },
+      {
+        "term": "hepatitis A",
+        "register_triggered": "conflation with foodborne hepatitis — different route",
+        "safer_alternative": "specify hepatitis B by name and note it differs from other hepatitis types"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always mention the vaccine as primary prevention",
+        "reason": "HBV is vaccine-preventable — this is the single most actionable fact in any HBV answer",
+        "implementation": "include vaccination recommendation in every G08 answer regardless of question type"
+      },
+      {
+        "flag": "always mention liver cancer risk for chronic infection",
+        "reason": "liver cancer is the most serious outcome and motivates health-seeking and treatment adherence",
+        "implementation": "include 'chronic hepatitis B can lead to liver cancer if untreated' in any answer about long-term effects"
+      }
+    ]
+  },
+  "G09_TRICHOMONIASIS": {
+    "group_id": "G09_TRICHOMONIASIS",
+    "label": "Trichomoniasis",
+    "must_have_terms": [
+      {
+        "term": "parasite",
+        "clinical_weight": 2,
+        "terse_form": "caused by a parasite",
+        "verbose_form": "trichomoniasis is caused by a tiny parasite called Trichomonas vaginalis, not a bacterium or virus"
+      },
+      {
+        "term": "curable",
+        "clinical_weight": 3,
+        "terse_form": "fully curable",
+        "verbose_form": "trichomoniasis is completely curable with a single dose of antibiotic medication prescribed by a health provider"
+      },
+      {
+        "term": "discharge",
+        "clinical_weight": 3,
+        "terse_form": "causes discharge and itching",
+        "verbose_form": "trichomoniasis causes frothy yellowish-green discharge, itching, and burning in the genital area"
+      },
+      {
+        "term": "often no symptoms",
+        "clinical_weight": 2,
+        "terse_form": "often no symptoms in men",
+        "verbose_form": "many people especially men have no symptoms but can still spread the infection to partners"
+      },
+      {
+        "term": "increases HIV risk",
+        "clinical_weight": 3,
+        "terse_form": "increases HIV risk",
+        "verbose_form": "trichomoniasis increases the risk of HIV transmission and acquisition — treating trich reduces HIV risk"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "get tested and treated",
+        "verbose_form": "visit a health facility for testing and treatment — do not self-treat as incorrect medication causes resistance"
+      },
+      {
+        "term": "partner treatment",
+        "clinical_weight": 3,
+        "terse_form": "partner must be treated too",
+        "verbose_form": "both partners must be treated at the same time to prevent reinfection — do not have sex until both are cured"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "trichomoniasis is a bacterial or viral infection",
+        "why_dangerous": "it is caused by a protozoan parasite — incorrect classification affects treatment expectations",
+        "safe_alternative": "trichomoniasis is caused by a parasite, not a bacterium or virus, but it is treated with antibiotic medication"
+      },
+      {
+        "forbidden_claim": "trichomoniasis is harmless if no symptoms are present",
+        "why_dangerous": "asymptomatic trich still increases HIV risk and can be transmitted",
+        "safe_alternative": "even without symptoms, trichomoniasis increases HIV risk and can be passed to partners"
+      },
+      {
+        "forbidden_claim": "a specific drug name without clinical framing",
+        "why_dangerous": "while metronidazole is standard, dosing requires clinical prescription",
+        "safe_alternative": "a health provider will prescribe the appropriate antibiotic — complete the full course"
+      },
+      {
+        "forbidden_claim": "trichomoniasis cannot be reinfected after treatment",
+        "why_dangerous": "reinfection from untreated partner is the most common cause of treatment failure",
+        "safe_alternative": "you can be reinfected if your partner is not treated at the same time"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "trich",
+        "usage_note": "common abbreviation — acceptable in answers if patient uses it but define fully first"
+      },
+      {
+        "term": "CLAP",
+        "usage_note": "cluster 30 uses this term — may refer to gonorrhea or discharge generally in some contexts; clarify with clinical term"
+      },
+      {
+        "term": "vaginal discharge",
+        "usage_note": "primary presenting symptom — gender-specific but core to answer"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "vaginitis",
+        "register_triggered": "clinical jargon — may confuse patients",
+        "safer_alternative": "use 'infection of the vaginal area' rather than vaginitis"
+      },
+      {
+        "term": "protozoan",
+        "register_triggered": "scientific register — inaccessible to most patients",
+        "safer_alternative": "use 'tiny parasite' rather than protozoan"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always state the HIV risk increase",
+        "reason": "cluster 37 specifically documents this link — it is the highest-stakes clinical fact in trichomoniasis answers for this population",
+        "implementation": "include 'trichomoniasis increases HIV risk' in every G09 answer"
+      },
+      {
+        "flag": "always require simultaneous partner treatment",
+        "reason": "trichomoniasis reinfection rate is extremely high without partner treatment",
+        "implementation": "state explicitly that both partners must complete treatment at the same time"
+      }
+    ]
+  },
+  "G10_HPV": {
+    "group_id": "G10_HPV",
+    "label": "HPV",
+    "must_have_terms": [
+      {
+        "term": "human papillomavirus",
+        "clinical_weight": 2,
+        "terse_form": "HPV virus",
+        "verbose_form": "HPV stands for human papillomavirus — it is the most common sexually transmitted infection worldwide"
+      },
+      {
+        "term": "vaccine available",
+        "clinical_weight": 3,
+        "terse_form": "vaccine prevents HPV",
+        "verbose_form": "an HPV vaccine is available and highly effective at preventing the types of HPV that cause cancer and genital warts"
+      },
+      {
+        "term": "cervical cancer",
+        "clinical_weight": 3,
+        "terse_form": "causes cervical cancer",
+        "verbose_form": "certain types of HPV cause cervical cancer in women — regular cervical cancer screening is essential"
+      },
+      {
+        "term": "affects men and women",
+        "clinical_weight": 2,
+        "terse_form": "affects both men and women",
+        "verbose_form": "HPV affects both men and women — in men it can cause genital warts and some cancers of the throat and genitals"
+      },
+      {
+        "term": "condoms reduce risk",
+        "clinical_weight": 2,
+        "terse_form": "condoms reduce but not eliminate",
+        "verbose_form": "condoms reduce the risk of HPV transmission but do not fully protect as HPV spreads through skin contact"
+      },
+      {
+        "term": "cervical screening",
+        "clinical_weight": 3,
+        "terse_form": "get cervical screening",
+        "verbose_form": "regular cervical cancer screening (Pap smear or VIA) can detect HPV-related changes before they become cancer"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "visit a health facility",
+        "verbose_form": "visit a health facility for HPV vaccination, cervical cancer screening, and advice on sexual health"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "HPV always causes cancer",
+        "why_dangerous": "most HPV infections clear on their own — overstating causes unnecessary fear",
+        "safe_alternative": "most HPV infections clear without treatment but some types can cause cancer if untreated — regular screening detects problems early"
+      },
+      {
+        "forbidden_claim": "condoms fully prevent HPV transmission",
+        "why_dangerous": "HPV is transmitted through skin-to-skin contact beyond condom coverage",
+        "safe_alternative": "condoms reduce HPV risk but do not eliminate it as HPV spreads through skin contact"
+      },
+      {
+        "forbidden_claim": "the HPV vaccine treats existing HPV infection",
+        "why_dangerous": "the vaccine prevents new infection but does not treat existing HPV",
+        "safe_alternative": "the HPV vaccine prevents future infection but cannot treat HPV you already have"
+      },
+      {
+        "forbidden_claim": "men do not need to worry about HPV",
+        "why_dangerous": "cluster 64 specifically concerns HPV in men — HPV causes cancers and warts in men",
+        "safe_alternative": "HPV affects men too — it can cause genital warts and some cancers in men"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "warts",
+        "usage_note": "genital warts are a key visible manifestation of HPV — use as accessible symptom description"
+      },
+      {
+        "term": "cervix",
+        "usage_note": "central anatomical term for cervical cancer risk — define simply if needed"
+      },
+      {
+        "term": "screening",
+        "usage_note": "critical prevention term — pair with 'Pap smear' or 'VIA test' for regional context"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "papilloma",
+        "register_triggered": "Latin clinical term — inaccessible to patients",
+        "safer_alternative": "use 'wart-causing virus' rather than papilloma"
+      },
+      {
+        "term": "carcinoma",
+        "register_triggered": "clinical jargon for cancer",
+        "safer_alternative": "use 'cancer' — carcinoma is not patient-accessible language"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always mention cervical cancer screening alongside vaccination",
+        "reason": "vaccine does not cover all HPV types — screening remains essential even for vaccinated individuals",
+        "implementation": "pair vaccination with screening recommendation in every G10 answer"
+      },
+      {
+        "flag": "always address both genders",
+        "reason": "cluster 64 specifically concerns HPV in men — many answers incorrectly treat HPV as a women-only concern",
+        "implementation": "explicitly state 'HPV affects both men and women' in every G10 answer"
+      }
+    ]
+  },
+  "G11_PEP_PREP": {
+    "group_id": "G11_PEP_PREP",
+    "label": "PEP / PrEP",
+    "must_have_terms": [
+      {
+        "term": "72 hours",
+        "clinical_weight": 3,
+        "terse_form": "within 72 hours",
+        "verbose_form": "PEP must be started within 72 hours of potential HIV exposure — the sooner the better, ideally within 2 hours"
+      },
+      {
+        "term": "28-day course",
+        "clinical_weight": 3,
+        "terse_form": "28-day full course",
+        "verbose_form": "PEP is a 28-day course of antiretroviral medication that must be completed in full to be effective"
+      },
+      {
+        "term": "PEP and PrEP are different",
+        "clinical_weight": 3,
+        "terse_form": "PEP and PrEP differ",
+        "verbose_form": "PEP is taken after a potential exposure (post-exposure) while PrEP is taken before ongoing exposure (pre-exposure) — they are different medications with different uses"
+      },
+      {
+        "term": "health facility immediately",
+        "clinical_weight": 3,
+        "terse_form": "go immediately to clinic",
+        "verbose_form": "go to a health facility immediately — do not wait as every hour reduces the effectiveness of PEP"
+      },
+      {
+        "term": "not a substitute for condoms",
+        "clinical_weight": 2,
+        "terse_form": "not a condom substitute",
+        "verbose_form": "PEP and PrEP do not replace condoms — condoms must still be used to prevent other STIs and for additional protection"
+      },
+      {
+        "term": "HIV negative before PrEP",
+        "clinical_weight": 3,
+        "terse_form": "must test HIV negative first",
+        "verbose_form": "you must test HIV negative before starting PrEP — PrEP is only appropriate for HIV-negative people"
+      },
+      {
+        "term": "high risk exposure",
+        "clinical_weight": 2,
+        "terse_form": "for high risk exposure",
+        "verbose_form": "PEP is recommended after high-risk exposure such as unprotected sex, sexual assault, or needlestick injury"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "PEP is 100% effective",
+        "why_dangerous": "PEP is highly but not 100% effective — false certainty leads to risk behaviour",
+        "safe_alternative": "PEP is highly effective when started promptly and completed fully but does not guarantee prevention"
+      },
+      {
+        "forbidden_claim": "PEP can be started after 72 hours",
+        "why_dangerous": "after 72 hours PEP is not recommended as effectiveness drops sharply",
+        "safe_alternative": "PEP must be started within 72 hours — after this window it is no longer recommended"
+      },
+      {
+        "forbidden_claim": "PrEP is appropriate for everyone",
+        "why_dangerous": "PrEP requires HIV negative status and ongoing adherence assessment — not universally appropriate",
+        "safe_alternative": "PrEP is appropriate for people at ongoing high risk — a health provider will assess your eligibility"
+      },
+      {
+        "forbidden_claim": "PEP and PrEP are the same medication or approach",
+        "why_dangerous": "different drugs, different timing, different indications — conflation causes dangerous misuse",
+        "safe_alternative": "PEP and PrEP are different — PEP is emergency use after exposure, PrEP is preventive use before exposure"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "exposure",
+        "usage_note": "central term — always specify what type of exposure: unprotected sex, assault, needlestick"
+      },
+      {
+        "term": "sexual assault",
+        "usage_note": "cluster 0 questions may involve assault context — handle with sensitivity and include GBV resource referral"
+      },
+      {
+        "term": "adherence",
+        "usage_note": "critical for both PEP and PrEP effectiveness — missed doses reduce efficacy"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "emergency contraception",
+        "register_triggered": "conflation with morning-after pill — completely different intervention",
+        "safer_alternative": "be explicit: PEP prevents HIV not pregnancy — emergency contraception is separate"
+      },
+      {
+        "term": "antiretroviral",
+        "register_triggered": "clinical jargon — accessible if defined",
+        "safer_alternative": "introduce as 'HIV prevention medication called antiretrovirals (ART)' then use ART abbreviation"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "always state the 72-hour window prominently and urgently",
+        "reason": "time criticality is the single most important fact in PEP — delays are irreversible",
+        "implementation": "72-hour window must be the first clinical fact stated in every PEP answer"
+      },
+      {
+        "flag": "always distinguish PEP from PrEP in the same answer",
+        "reason": "only 39 rows in this cluster — many questions conflate the two",
+        "implementation": "define both PEP and PrEP with their timing difference in every G11 answer even if only one is asked about"
+      },
+      {
+        "flag": "include sexual assault sensitivity if context suggests it",
+        "reason": "some PEP questions come from assault survivors who need both PEP and GBV support",
+        "implementation": "if assault is implied, add 'confidential support services are available' alongside PEP guidance"
+      }
+    ]
+  },
+  "G12_GENERAL_STIS": {
+    "group_id": "G12_GENERAL_STIS",
+    "label": "General STIs (multi-pathogen)",
+    "must_have_terms": [
+      {
+        "term": "sexually transmitted infection",
+        "clinical_weight": 2,
+        "terse_form": "STI is an infection",
+        "verbose_form": "sexually transmitted infections (STIs) are infections passed from one person to another through sexual contact"
+      },
+      {
+        "term": "testing is the only way",
+        "clinical_weight": 3,
+        "terse_form": "only testing confirms STI",
+        "verbose_form": "the only reliable way to know if you have an STI is to get tested at a health facility — symptoms alone are not enough"
+      },
+      {
+        "term": "multiple types",
+        "clinical_weight": 2,
+        "terse_form": "many different STIs exist",
+        "verbose_form": "there are many different types of STIs including chlamydia, gonorrhea, syphilis, herpes, HIV, and HPV — each requires different treatment"
+      },
+      {
+        "term": "often no symptoms",
+        "clinical_weight": 3,
+        "terse_form": "often no symptoms",
+        "verbose_form": "many STIs cause no symptoms — a person can have an STI and feel completely healthy while still able to transmit it"
+      },
+      {
+        "term": "condom",
+        "clinical_weight": 3,
+        "terse_form": "condoms reduce STI risk",
+        "verbose_form": "using condoms correctly and consistently reduces the risk of most STIs significantly"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "go to a health facility",
+        "verbose_form": "visit a health facility for testing, diagnosis, and treatment — do not self-diagnose or self-treat"
+      },
+      {
+        "term": "partner notification",
+        "clinical_weight": 3,
+        "terse_form": "inform your partner",
+        "verbose_form": "if you are diagnosed with an STI, all recent sexual partners must be notified and encouraged to get tested"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "a specific STI diagnosis based on described symptoms",
+        "why_dangerous": "multiple STIs share symptoms — only testing provides diagnosis",
+        "safe_alternative": "these symptoms could indicate an STI — get tested at a health facility for an accurate diagnosis"
+      },
+      {
+        "forbidden_claim": "STIs only affect certain types of people",
+        "why_dangerous": "cluster 42 is specifically about STIs in boys and women — stigma-free framing required",
+        "safe_alternative": "STIs can affect anyone who is sexually active regardless of gender, age, or relationship type"
+      },
+      {
+        "forbidden_claim": "STIs are always obvious or visible",
+        "why_dangerous": "most STIs are asymptomatic — false confidence leads to untested infections",
+        "safe_alternative": "most STIs cause no visible symptoms — regular testing is the only reliable way to know your status"
+      },
+      {
+        "forbidden_claim": "treating one STI protects against others",
+        "why_dangerous": "false — each STI requires its own treatment and protection",
+        "safe_alternative": "treating one STI does not protect against others — condoms and regular testing are needed for all STIs"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "sexual contact",
+        "usage_note": "neutral term covering vaginal, oral, and anal routes — use over 'sex' when possible for clinical precision"
+      },
+      {
+        "term": "boy",
+        "usage_note": "cluster 42 specifically addresses STIs in boys — gender-inclusive framing matters"
+      },
+      {
+        "term": "woman",
+        "usage_note": "cluster 42 also addresses women — use alongside boy/man for inclusive coverage"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "shameful",
+        "register_triggered": "stigma/moral register — completely inappropriate",
+        "safer_alternative": "STIs are medical conditions — remove any moral framing from answers"
+      },
+      {
+        "term": "dirty",
+        "register_triggered": "stigma register",
+        "safer_alternative": "never use 'dirty' in relation to STIs or people with STIs — replace with clinical neutral language"
+      },
+      {
+        "term": "promiscuous",
+        "register_triggered": "moral judgement register",
+        "safer_alternative": "use 'multiple sexual partners' as a neutral risk factor descriptor"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "never name a specific STI as the diagnosis without testing context",
+        "reason": "G12 is for general STI questions — specific diagnosis requires testing and is outside scope",
+        "implementation": "always add 'testing is needed for an accurate diagnosis' when symptom questions arise"
+      },
+      {
+        "flag": "always name at least 3 common STIs to illustrate variety",
+        "reason": "patients asking general STI questions benefit from understanding the breadth of the category",
+        "implementation": "list 3 examples: chlamydia, gonorrhea, and syphilis as the minimum named examples"
+      }
+    ]
+  },
+  "G13_CULTURAL_MYTHS": {
+    "group_id": "G13_CULTURAL_MYTHS",
+    "label": "Cultural & religious cure myths",
+    "must_have_terms": [
+      {
+        "term": "cannot cure",
+        "clinical_weight": 3,
+        "terse_form": "cannot cure this infection",
+        "verbose_form": "prayer, fasting, and holy water cannot cure a bacterial, viral, or parasitic infection — these are medical conditions requiring medical treatment"
+      },
+      {
+        "term": "medical treatment is needed",
+        "clinical_weight": 3,
+        "terse_form": "medical treatment required",
+        "verbose_form": "this condition requires medical treatment from a health provider — spiritual practices alone are not sufficient"
+      },
+      {
+        "term": "health facility",
+        "clinical_weight": 3,
+        "terse_form": "visit a health facility",
+        "verbose_form": "please visit your nearest health facility as soon as possible for testing and medical treatment"
+      },
+      {
+        "term": "spiritual practice respected",
+        "clinical_weight": 2,
+        "terse_form": "faith is respected",
+        "verbose_form": "your faith and spiritual practices are respected and can provide comfort and strength alongside medical treatment"
+      },
+      {
+        "term": "delay is dangerous",
+        "clinical_weight": 3,
+        "terse_form": "delay causes harm",
+        "verbose_form": "delaying medical treatment while relying solely on spiritual remedies allows the infection to progress and cause serious harm"
+      },
+      {
+        "term": "both together",
+        "clinical_weight": 2,
+        "terse_form": "medicine and faith together",
+        "verbose_form": "many people find strength in combining their faith with medical treatment — these approaches can work together"
+      },
+      {
+        "term": "serious complications",
+        "clinical_weight": 2,
+        "terse_form": "untreated causes complications",
+        "verbose_form": "without medical treatment this infection can cause serious complications including infertility, organ damage, or death"
+      }
+    ],
+    "must_not_claim": [
+      {
+        "forbidden_claim": "spiritual practices are useless or invalid",
+        "why_dangerous": "dismissing faith alienates the patient and reduces likelihood of following medical advice — cultural respect is clinically essential",
+        "safe_alternative": "acknowledge faith respectfully while clearly stating that medical treatment is also needed"
+      },
+      {
+        "forbidden_claim": "prayer or holy water could have partial effectiveness",
+        "why_dangerous": "any validation of the myth delays medical treatment",
+        "safe_alternative": "be clear that the condition cannot be treated without medicine, while respecting the person's faith"
+      },
+      {
+        "forbidden_claim": "the traditional healer or pastor is wrong to recommend this",
+        "why_dangerous": "attacking trusted community figures creates resistance and damages the clinical relationship",
+        "safe_alternative": "focus on what the medical evidence shows rather than criticising the source of the belief"
+      },
+      {
+        "forbidden_claim": "this condition is a spiritual punishment",
+        "why_dangerous": "reinforces harmful stigma and prevents health-seeking",
+        "safe_alternative": "frame the condition as a medical issue with a medical solution — spiritual framing of illness as punishment is never appropriate"
+      }
+    ],
+    "context_terms": [
+      {
+        "term": "pastor",
+        "usage_note": "appears in cluster questions — reference respectfully without dismissing"
+      },
+      {
+        "term": "traditional healer",
+        "usage_note": "common in Uganda and Ghana contexts — respected community figure, do not dismiss"
+      },
+      {
+        "term": "holy water",
+        "usage_note": "specific to clusters 52 and 75 — handle with cultural sensitivity"
+      },
+      {
+        "term": "fasting",
+        "usage_note": "specific to cluster 45 — common religious practice in Ethiopia and Uganda contexts"
+      },
+      {
+        "term": "faith",
+        "usage_note": "use as positive term for spiritual belief — distinct from the specific remedy being addressed"
+      }
+    ],
+    "diverge_terms": [
+      {
+        "term": "superstition",
+        "register_triggered": "dismissive/condescending register — will alienate patient",
+        "safer_alternative": "never use superstition — use 'this belief' or 'this approach' neutrally"
+      },
+      {
+        "term": "uneducated",
+        "register_triggered": "condescending register",
+        "safer_alternative": "never imply the patient is uneducated for holding a traditional belief"
+      },
+      {
+        "term": "wrong",
+        "register_triggered": "confrontational register when directed at belief systems",
+        "safer_alternative": "use 'medical evidence shows' or 'this condition requires' rather than 'that belief is wrong'"
+      }
+    ],
+    "cross_cutting_flags": [
+      {
+        "flag": "mandatory 3-step structure: acknowledge → clarify → redirect",
+        "reason": "this is the unique answer structure requirement for all cultural myth questions — standard clinical QA structure fails here",
+        "implementation": "Step 1: acknowledge the belief respectfully ('many people turn to prayer and traditional remedies'). Step 2: clarify the clinical limitation ('this condition is caused by [virus/bacteria/parasite] which requires medical treatment'). Step 3: redirect urgently ('please visit a health facility as soon as possible for treatment that can prevent serious complications')"
+      },
+      {
+        "flag": "always include urgency framing",
+        "reason": "patients asking these questions may have been delaying treatment for some time — urgency is clinically critical",
+        "implementation": "include 'as soon as possible' or 'without delay' in every G13 answer"
+      },
+      {
+        "flag": "country-specific cultural calibration",
+        "reason": "holy water framing is more common in Ethiopian Orthodox context; pastoral/prayer framing in Uganda/Ghana Pentecostal context — answer register should reflect this",
+        "implementation": "for Amh_Eth questions: reference Orthodox spiritual practice context. For Eng_Uga/Lug_Uga/Aka_Gha questions: reference pastoral/evangelical context. For Swa_Ken: both Christian and Islamic framing may appear."
+      }
+    ]
+  }
+}

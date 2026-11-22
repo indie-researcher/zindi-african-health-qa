@@ -1,0 +1,13 @@
+model,variant,alpha,mean_rouge
+bge-m3,plain,0.0,0.41370954232725093
+bge-m3,plain,0.4,0.45311540532455874
+bge-m3,plain,0.8,0.4627546814238708
+bge-m3,plain,1.2,0.4682825605743345
+bge-m3,plain,1.6,0.4711422075979658
+bge-m3,plain,2.0,0.47349994017349684
+bge-m3,prefix_no_cluster,0.0,0.41370954232725093
+bge-m3,prefix_no_cluster,0.4,0.4519397995812145
+bge-m3,prefix_no_cluster,0.8,0.4612191743942567
+bge-m3,prefix_no_cluster,1.2,0.46774425665569846
+bge-m3,prefix_no_cluster,1.6,0.46962318276996706
+bge-m3,prefix_no_cluster,2.0,0.4715203559676937

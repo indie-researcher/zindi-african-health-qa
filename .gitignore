@@ -1,0 +1,10 @@
+data/*
+!data/README.md
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pt
+*.safetensors
+art/
+submission*.csv
+repo_audit.txt

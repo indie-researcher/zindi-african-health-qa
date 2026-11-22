@@ -1,0 +1,6 @@
+subset,blended,n_evals,analyzer,k1,b,copy_thresh,strip_punct,term_override,search_answers,normalize_hiv_aids,ngram,normalize_ukimwi,force_short,lowercase_aggressive,strip_lug_prefix
+Amh_Eth,0.1569,150,word,0.5,0.5,0.4,True,True,False,,,,,,
+Eng_Ken,0.5888,150,word,1.5,0.75,0.78,,,,False,,,,,
+Swa_Ken,0.599,150,word,1.5,0.6,0.85,True,,,,"(1, 2)",False,,,
+Eng_Eth,0.5221,150,word,1.5,0.75,0.93,,,,,,,False,,
+Lug_Uga,0.4701,150,word,0.8,0.3,0.88,True,,,,"(1, 1)",,,False,True
